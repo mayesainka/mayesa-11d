@@ -1,0 +1,172 @@
+body {
+    /* Abu-abu gelap yang tenang */
+    background-color: #f2f4f5; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333d42;
+    margin: 20px;
+}
+
+h1 {
+    /* Abu-abu arang (Charcoal) */
+    color: #2c3e50;
+    text-align: center;
+}
+
+h2 {
+    /* Abu-abu kebiruan (Slate) */
+    color: #546e7a;
+    text-align: left;
+}
+
+p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.daftar-produk {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.produk {
+    /* Abu-abu terang bersih */
+    background-color: #ffffff;
+    border: 1px solid #d1d8db;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.produk img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.produk h2 {
+    font-size: 20px;
+    color: #455a64;
+}
+
+.produk h3 {
+    font-size: 16px;
+    color: #607d8b;
+}
+
+.harga {
+    font-weight: bold;
+    /* Hijau abu-abu agar tetap kontras tapi lembut */
+    color: #4f6f52;
+}
+
+.deskripsi {
+    font-size: 14px;
+    color: #78909c;
+}
+
+.artikel {
+    max-width: 700px;
+    margin: auto;
+    padding: 30px;
+    background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.8;
+    border: 1px solid #eceff1;
+    border-radius: 8px;
+}
+
+.artikel .penulis {
+    font-style: italic;
+    color: #90a4ae;
+    margin-bottom: 20px;
+}
+
+.artikel .sampul {
+    width: 180px;
+    float: right;
+    margin: 0 0 20px 20px;
+    border: 1px solid #cfd8dc;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.artikel blockquote {
+    font-style: italic;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-left: 4px solid #b0bec5;
+    color: #546e7a;
+    background-color: #f8f9fa;
+}
+
+.btn-kembali {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    /* Tombol abu-abu gelap agar terlihat premium */
+    background-color: #455a64;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.btn-kembali:hover {
+    background-color: #263238;
+}
+
+.formulir {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    border: 1px solid #eceff1;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #455a64;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #cfd8dc;
+    background-color: #fcfdfe;
+}
+
+form button {
+    background-color: #607d8b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #455a64;
+}
+
+.gambar-atas{
+    width: 100%;
+    height: auto;
+    max-width: 3000px;
+    display: block;
+    margin: 0 auto 20px;
+}
