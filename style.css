@@ -170,3 +170,193 @@ form button:hover {
     display: block;
     margin: 0 auto 20px;
 }
+/* Pengaturan Umum */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Navigasi */
+nav {
+    background-color: #2c3e50;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+nav a:hover {
+    color: #e67e22;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    padding: 40px 0;
+    margin: 0;
+    background-color: #fff;
+    color: #2c3e50;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1000&q=80');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.btn-cta {
+    display: inline-block;
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Features */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background: white;
+    text-align: center;
+}
+
+.feature-item {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: 40px;
+}
+/* Header Khusus Halaman */
+.page-header {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+/* Container Event */
+.event-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Kartu Event */
+.event-card {
+    display: flex;
+    background: white;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Kotak Tanggal */
+.event-date {
+    background-color: #e67e22;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 80px;
+}
+
+.event-date .day {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.event-date .month {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+/* Konten Event */
+.event-content {
+    padding: 20px;
+}
+
+.event-content h3 {
+    margin: 0 0 10px 0;
+    color: #2c3e50;
+}
+
+.event-time {
+    color: #e67e22;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.event-content p {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Tombol Daftar */
+.btn-regis {
+    display: inline-block;
+    padding: 8px 15px;
+    border: 2px solid #e67e22;
+    color: #e67e22;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-regis:hover {
+    background-color: #e67e22;
+    color: white;
+}
+
+/* Responsif Mobile */
+@media (max-width: 600px) {
+    .event-card {
+        flex-direction: column;
+    }
+    .event-date {
+        flex-direction: row;
+        gap: 10px;
+        padding: 10px;
+    }
+}
